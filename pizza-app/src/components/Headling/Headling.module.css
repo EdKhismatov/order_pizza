@@ -1,0 +1,9 @@
+.h1 {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-size: 36.41px;
+  font-weight: 600;
+  line-height: 43.7px;
+  line-height: 120%;
+  margin: 0;
+}
