@@ -16,11 +16,7 @@ export function Menu() {
     try {
       setIsLoading(true);
       // тут был сеттаймер
-      await new Promise<void>((resolve) => {
-        setTimeout(() => {
-          resolve();
-        }, 2000);
-      });
+      
       const { data } = await axios.get<Product[]>(`${PREFIX}/products`);
       // console.log(data)
       SetProducts(data);
