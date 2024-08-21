@@ -1,0 +1,108 @@
+.image {
+  margin-top: 50px;
+  width: 323px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rating {
+  height: 20px;
+  background: var(--white-color);
+  padding: 3px 5px;
+  border-radius: 20px;
+  color: #111719;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 6.07px 24.29px 0px #fe724c33;
+}
+
+.rat {
+  display: flex;
+  width: 200px;
+  gap: 100px;
+  border-bottom: 1px solid #f1f2f3;
+  align-items: center;
+}
+
+.price {
+  background: var(--white-color);
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #111719;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.currency {
+  color: var(--primary-color);
+}
+
+.pricec {
+  display: flex;
+  width: 200px;
+  gap: 100px;
+  border-bottom: 1px solid #f1f2f3;
+  align-items: center;
+}
+
+.ritch {
+  padding: 50px;
+}
+
+.word {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.sostav {
+  font-size: 14.57px;
+  font-weight: 600;
+  line-height: 19.84px;
+  text-align: left;
+}
+
+.arr {
+  line-height: 1.5px;
+  color: #5b5b5e;
+  font-size: 14.57px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: left;
+}
+
+.ingredient {
+  padding-top: 10px;
+}
+
+.add-to-card {
+  width: 143px;
+  height: 43px;
+  top: 43px;
+  left: 867px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: #fe724c;
+  box-shadow: 0px 10px 30px 0px #fe724c33;
+  border: none;
+}
+
+.add-to-card:hover {
+  background-color: #c74824;
+  cursor: pointer;
+}
+
+.buttons {
+  padding-top: 50px;
+}
