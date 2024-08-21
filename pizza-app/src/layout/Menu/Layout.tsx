@@ -12,8 +12,8 @@ import { RootState } from '@reduxjs/toolkit/query';
 export default function Layout() {
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispath>();
-  const profile = useSelector((s: RootState) => s.user.profile)
-
+  const profile = useSelector((s: RootState) => s.user.profile);
+  const items = useSelector((s: RootState) => s.cart.items);
 
   useEffect(() => {
     dispatch(getProfile());
@@ -59,6 +59,7 @@ export default function Layout() {
             <img src="/cart-icon.svg" alt="корзина" />
             Корзина
           </NavLink>
+          {items.reduce((acc, item) => (acc += item.count), 0)}
         </div>
         <Button className={styles['exit']} onClick={logout}>
           <img src="/exit.svg" alt="выход" />
