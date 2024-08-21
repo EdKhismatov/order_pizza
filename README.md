@@ -10,3 +10,28 @@
 <h2>Главная страница</h2>
 
 ![Главная](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/главная%20страница.png)
+
+
+<h2>Сортировка по ингридиентам</h2>
+
+![Сортировка](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/сортировка.png)
+
+
+<h2>Добавление в корзину</h2>
+
+![добавление в корзину](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/добавление%20в%20корзину.png)
+
+
+<h2>Добавление в корзину</h2>
+
+![Корзина](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/корзина.png)
+
+
+<h2>Заказ оформлен</h2>
+
+![Оформление](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/оформление.png)
+
+
+<h2>Страница продукта</h2>
+
+![Оформление](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/продукт.png)
