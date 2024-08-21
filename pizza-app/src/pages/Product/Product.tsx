@@ -73,10 +73,6 @@ export default function Product() {
         </div>
       </div>
     </>
-    // <Suspense fallback={'Загружаю...'}>
-    //   <Await resolve={data.data}>
-    //     {({ data }: { data: Product }) => <>Product - {data.name}</>}
-    //   </Await>
-    // </Suspense>
+   
   );
 }
