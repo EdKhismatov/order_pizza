@@ -22,7 +22,7 @@
 ![добавление в корзину](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/добавление%20в%20корзину.png)
 
 
-<h2>Добавление в корзину</h2>
+<h2>Корзина</h2>
 
 ![Корзина](https://github.com/EdKhismatov/order_pizza/blob/main/pizza-app/public/фото/корзина.png)
 
