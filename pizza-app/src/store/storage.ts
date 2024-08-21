@@ -1,4 +1,4 @@
-export function loadState(key: string) {
+export function loadState<T>(key: string): T | undefined {
   try {
     const jsonState = localStorage.getItem(key);
     if (!jsonState) {
@@ -11,7 +11,7 @@ export function loadState(key: string) {
   }
 }
 
-export function sevaState<T>(state: T, key: string) {
+export function saveState<T>(state: T, key: string) {
   const stringState = JSON.stringify(state);
   localStorage.setItem(key, stringState);
 }
